@@ -21,7 +21,7 @@ if(window.snake)snake.skull_poison = function() {
 
     eval(
         code.match(
-          /[a-zA-Z0-9_$]new s_AD([^]*/
+          /[a-zA-Z0-9_]new s_AD[a-zA-Z0-9_]/
         )[0].replace(
           'v4/apple_"+((10>a?"0":"")+a)+".png',
           `snake_arcade/v12/trophy_10.png
