@@ -12,8 +12,7 @@ if(window.snake)snake.skull_poison = function() {
     eval(
         code.replace(
           'v4/apple_"+((10>a?"0":"")+a)+".png',
-          `snake_arcade/v12/trophy_10.png
-          `
+          `snake_arcade/v12/trophy_10.png`
         )
       );
     };
