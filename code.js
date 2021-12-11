@@ -28,7 +28,6 @@ if(window.snake)snake.skull_poison = function() {
           `
         )
       );
-      );
     };
     req.send();
   }
