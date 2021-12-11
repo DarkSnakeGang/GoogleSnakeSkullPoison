@@ -18,10 +18,10 @@ if(window.snake)snake.skull_poison = function() {
     req.onload = function() {
       const code = this.responseText;
       if(code.indexOf('trophy') === -1)return;
-
+    
     eval(
         code.match(
-          /[a-zA-Z0-9_$]new s_AD[a-zA-Z0-9_]this\.Ca[a-zA-Z0-9_]/
+          /[a-zA-Z0-9_]{1,6}=function\(a,b\){return a.[a-zA-Z0-9]{1,4}===b}/
         )[0].replace(
           'v4/apple_"+((10>a?"0":"")+a)+".png',
           `snake_arcade/v12/trophy_10.png
