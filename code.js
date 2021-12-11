@@ -15,6 +15,12 @@ if(window.snake)snake.skull_poison = function() {
           `v12/trophy_10`
         )
       );
+    eval(
+        code.replace(
+          'd=s_Uwd[a];s_BD(c,d.base,d.target,d.threshold);',
+          ``
+        )
+      );
     };
     req.send();
   }
