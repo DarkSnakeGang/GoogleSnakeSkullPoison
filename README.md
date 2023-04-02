@@ -1,4 +1,4 @@
 # GoogleSnakeSkullPoison
-Replaces the grey apples with the skull apple
 
-Just click the bookmark.
+No longer works. Go install mod loader and use PuddingMod instead.         
+https://github.com/DarkSnakeGang/GoogleSnakeModLoader/blob/main/README.md       
